@@ -1,4 +1,4 @@
-# Pay-to-Chat Web3 Application
+# BaseChat-AI | Pay-to-Chat Web3 Sass App
 
 A Web3-powered chat application that allows users to connect their wallets, buy credits using USDC, and chat with AI while consuming credits.
 
