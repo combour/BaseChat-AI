@@ -7,7 +7,6 @@ import {
   Bot,
   User,
   Loader2,
-
   CreditCard,
   AlertCircle,
 } from "lucide-react";
