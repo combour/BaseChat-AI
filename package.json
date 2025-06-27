@@ -1,26 +1,47 @@
 {
-  "name": "402pay",
+  "name": "Pay to Chat",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "db:validate": "node scripts/validate-database.js",
+    "db:cleanup": "node scripts/cleanup-duplicates.js",
+    "db:clean": "node scripts/clean-database.js"
   },
   "dependencies": {
+    "@coinbase/onchainkit": "latest",
+    "@headlessui/react": "^2.2.4",
+    "@prisma/client": "^6.10.1",
+    "@rainbow-me/rainbowkit": "^2.2.8",
+    "@tanstack/react-query": "^5",
+    "lucide-react": "^0.517.0",
+    "next": "14.2.15",
+    "openai": "^5.5.1",
+    "pino-pretty": "^13.0.0",
+    "prisma": "^6.10.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "sonner": "^2.0.5",
+    "viem": "^2.27.2",
+    "wagmi": "^2.14.11",
+    "x402": "^0.4.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "null-loader": "^4.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15"
+    "typescript": "^5"
   }
 }
