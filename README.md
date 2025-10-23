@@ -10,7 +10,7 @@ A Web3-powered chat application that allows users to connect their wallets, buy 
 - **x402 Integration**: Secure payment processing using x402 protocol
 - **Database Storage**: User data and transaction history stored in PostgreSQL
 - **Real-time Updates**: Credit balance updates automatically
-- **Enhanced Chat UI**: Modern chat interface with advanced loading states and animations
+- **Enhanced Chat UI**: Modern chat interface with advanced loading states and animations 
 
 ## Enhanced Chat Features
 
